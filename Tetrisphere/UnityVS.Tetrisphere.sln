@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Tetrisphere.CSharp.Editor", "UnityVS.Tetrisphere.CSharp.Editor.csproj", "{1C8BEE98-EA4E-3133-EA8C-4449017B5661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Tetrisphere.CSharp", "UnityVS.Tetrisphere.CSharp.csproj", "{1A743C18-2A25-C175-D36B-D7275EF724F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Tetrisphere.CSharp.Plugins", "UnityVS.Tetrisphere.CSharp.Plugins.csproj", "{9EB4C445-2A9A-748D-D8F5-7505A50B99EA}"
+EndProject
+Project("{1FAC5C55-277D-4884-94A4-83DBDAF57E56}") = "UnityVS.Tetrisphere.UnityScript", "UnityVS.Tetrisphere.UnityScript.unityproj", "{139DE9FB-E223-F3A2-717C-79D98EDBE75B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C8BEE98-EA4E-3133-EA8C-4449017B5661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C8BEE98-EA4E-3133-EA8C-4449017B5661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C8BEE98-EA4E-3133-EA8C-4449017B5661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C8BEE98-EA4E-3133-EA8C-4449017B5661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A743C18-2A25-C175-D36B-D7275EF724F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A743C18-2A25-C175-D36B-D7275EF724F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A743C18-2A25-C175-D36B-D7275EF724F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A743C18-2A25-C175-D36B-D7275EF724F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB4C445-2A9A-748D-D8F5-7505A50B99EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB4C445-2A9A-748D-D8F5-7505A50B99EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB4C445-2A9A-748D-D8F5-7505A50B99EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB4C445-2A9A-748D-D8F5-7505A50B99EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{139DE9FB-E223-F3A2-717C-79D98EDBE75B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139DE9FB-E223-F3A2-717C-79D98EDBE75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139DE9FB-E223-F3A2-717C-79D98EDBE75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139DE9FB-E223-F3A2-717C-79D98EDBE75B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

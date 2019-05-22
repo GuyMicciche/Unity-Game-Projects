@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1A743C18-2A25-C175-D36B-D7275EF724F9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_5_0;UNITY_4_5;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_4_5_0;UNITY_4_5;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityVS.Tetrisphere.CSharp.Plugins.csproj">
+      <Project>{9EB4C445-2A9A-748D-D8F5-7505A50B99EA}</Project>
+      <Name>UnityVS.Tetrisphere.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\BallBounce.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\Bouyancy.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\BouyancyNew.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\KDTree.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\MatchShape.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\MegaDeform.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\MegaGUI.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\MegaIWave.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\MegaWireDeform.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\MOrbit.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\PathFollow.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\PyramidMesh.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\Scroll.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\SoftBody.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\ToggleMultiCore.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\WalkBridge.cs" />
+    <Compile Include="Assets\Mega-Fiers\MegaFier Test Scene\Scripts\WalkRope.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaBook.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaBox3.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaControllers\MegaBezFloatKeyControl.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaControllers\MegaBezVector3KeyControl.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaControllers\MegaControl.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaMatrix.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaPerlin.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaMeshPage.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaShape.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaShapeArc.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaShapeCircle.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaShapeEllipse.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaShapeHelix.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaShapeNGon.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaShapeRectangle.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaShape\MegaShapeStar.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaUtils.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\MegaWaveMesh.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaBend.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaBubble.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaBulge.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaCrumple.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaCurveDeform.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaCurveSculpt.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaCurveSculptLayered.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaCylindrify.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaDisplace.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaDisplaceWebCam.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaDynamicRipple.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaFFD.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaFFD2x2x2.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaFFD3x3x3.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaFFD4x4x4.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaFFDAnimate.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaHump.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaMelt.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaModifier.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaModifiers.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaModifyGroup.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaModifyObject.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaMorph\MegaMorphOMatic.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaNoise.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaPageFlip.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaPaint.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaPathDeform.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaPivotAdjust.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaPointCache.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaPointCacheAnimator.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaPointCacheInstance.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaPush.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaRadialSkew.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaRipple.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaRopeDeform.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaRubber.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaSimpleMod.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaSinusCurve.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaSkew.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaSpherify.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaSqueeze.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaStretch.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaTaper.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaTwist.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaVertexAnim.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaVertNoise.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaWave.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\MegaWorldPathDeform.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Morph\MegaMorph.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Morph\MegaMorphAnim.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Morph\MegaMorphAnimator.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Morph\MegaMorphChan.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Morph\MegaMorphLink.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Morph\MegaMorphTarget.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Selection\MegaSelection.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Selection\MegaVertColSelect.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Selection\MegaVolSelect.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\UVMods\MegaUVAdjust.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\UVMods\MegaUVTiles.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaBendWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaNoiseWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaRippleWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaSkewWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaStretchWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaTaperWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaTwistWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaWarpBind.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Modifiers\Warps\MegaWaveWarp.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaAttach.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaBallBounce.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaCopyObject.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaNearestPoint.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaScroll.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaSoft2D.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaToggleMultiCore.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaWalkBridge.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaFiers\Utils\MegaWalkRope.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaGrab\DOFCamera.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaGrab\JPGEncoder.cs" />
+    <Compile Include="Assets\Mega-Fiers\Scripts\MegaGrab\MegaGrab.cs" />
+    <Compile Include="Assets\Scripts\Tests\BoardControllerBase.cs" />
+    <Compile Include="Assets\Scripts\Tests\BoardLayoutManager.cs" />
+    <Compile Include="Assets\Scripts\Tests\BoardPosition.cs" />
+    <Compile Include="Assets\Scripts\Tests\BoardPositionContainer.cs" />
+    <Compile Include="Assets\Scripts\Tests\BoardSlot.cs" />
+    <Compile Include="Assets\Scripts\Tests\BoardSlotSphericalProxy.cs" />
+    <Compile Include="Assets\Scripts\Tests\BoardViewerBase.cs" />
+    <Compile Include="Assets\Scripts\Tests\CoreMonoBehaviour.cs" />
+    <Compile Include="Assets\Scripts\LevelBehavior.cs" />
+    <Compile Include="Assets\Scripts\MeshMerger.cs" />
+    <Compile Include="Assets\Scripts\Tests\CylinderLayoutTest.cs" />
+    <Compile Include="Assets\Scripts\Tests\GameBoard.cs" />
+    <Compile Include="Assets\Scripts\Tests\GameShape.cs" />
+    <Compile Include="Assets\Scripts\Tests\GameShapeProxy.cs" />
+    <Compile Include="Assets\Scripts\Tests\GameShapeProxyBase.cs" />
+    <Compile Include="Assets\Scripts\Tests\HACK_BoardLayoutManager.cs" />
+    <Compile Include="Assets\Scripts\Tests\MinMaxRange.cs" />
+    <Compile Include="Assets\Scripts\Tests\ShapeAttributesContainer.cs" />
+    <Compile Include="Assets\Scripts\Tests\ShapeLayoutBase.cs" />
+    <Compile Include="Assets\Scripts\Tests\SphericalCoordinates.cs" />
+    <Compile Include="Assets\Scripts\Tests\SphericalLayoutTest.cs" />
+    <None Include="Assets\Mega-Fiers\ReadMe.txt" />
+    <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+    <None Include="Assets\Tests\Shader\AlphaUnlitColor.shader" />
+    <None Include="Assets\Tests\Shader\Illumin-BumpSpec.shader" />
+    <None Include="Assets\Tests\Shader\Illumin-Diffuse.shader" />
+    <None Include="Assets\Tests\Shader\Illumin-Glossy.shader" />
+    <None Include="Assets\Tests\Shader\Illumin-VertexLit.shader" />
+    <None Include="Assets\Tests\Shader\Mobile-Particle-Add.shader" />
+    <None Include="Assets\Tests\Shader\Mobile-Particle-Alpha.shader" />
+    <None Include="Assets\Tests\Shader\Mobile-Skybox.shader" />
+    <None Include="Assets\Tests\Shader\Particle Add.shader" />
+    <None Include="Assets\Tests\Shader\Particle Alpha Blend.shader" />
+    <None Include="Assets\Tests\Shader\SexyTime.shader" />
+    <None Include="Assets\Tests\Shader\SexyTimeSurfaceIllumDiffuse.shader" />
+    <None Include="Assets\Tests\Shader\SexyTimeSurfaceIllumSpecular.shader" />
+    <None Include="Assets\Tests\Shader\Skybox.shader" />
+    <None Include="Assets\Tests\Shader\Sprite Vertex Colored.shader" />
+    <None Include="Assets\Tests\Shader\Unlit - Additive Colored.shader" />
+    <None Include="Assets\Tests\Shader\Unlit - Depth Cutout.shader" />
+    <None Include="Assets\Tests\Shader\Unlit - Depth.shader" />
+    <None Include="Assets\Tests\Shader\Unlit - Dynamic Font (AlphaClip).shader" />
+    <None Include="Assets\Tests\Shader\Unlit - Dynamic Font (SoftClip).shader" />
+    <None Include="Assets\Tests\Shader\Unlit - Dynamic Font.shader" />
+    <None Include="Assets\Tests\Shader\Unlit - Masked Colored.shader" />
+    <None Include="Assets\Tests\Shader\Unlit - Premultiplied Colored (AlphaClip).shader" />
+    <None Include="Assets\Tests\Shader\Unlit - Premultiplied Colored (SoftClip).shader" />
+    <None Include="Assets\Tests\Shader\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\Tests\Shader\Unlit - Text (AlphaClip).shader" />
+    <None Include="Assets\Tests\Shader\Unlit - Text (SoftClip).shader" />
+    <None Include="Assets\Tests\Shader\Unlit - Text.shader" />
+    <None Include="Assets\Tests\Shader\Unlit - Transparent Colored (AlphaClip).shader" />
+    <None Include="Assets\Tests\Shader\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+    <None Include="Assets\Tests\Shader\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+    <None Include="Assets\Tests\Shader\Unlit - Transparent Colored (Packed).shader" />
+    <None Include="Assets\Tests\Shader\Unlit - Transparent Colored (SoftClip).shader" />
+    <None Include="Assets\Tests\Shader\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\Tests\Shader\Unlit-Alpha.shader" />
+    <None Include="Assets\Tests\Shader\Unlit-Normal.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

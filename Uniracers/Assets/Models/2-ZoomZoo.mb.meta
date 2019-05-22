@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: dd394c3aaebeb6e4bbb367143917708f
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: curve2
+    100004: curve3
+    100006: curve4
+    100008: curve5
+    100010: curve6
+    100012: curve7
+    100014: curve8
+    100016: curve9
+    100018: Curves
+    100020: extrudedSurface2
+    100022: extrudedSurface3
+    100024: extrudedSurface4
+    100026: extrudedSurface5
+    100028: extrudedSurface6
+    100030: extrudedSurface7
+    100032: extrudedSurface8
+    100034: extrudedSurface9
+    100036: Geo
+    100038: imagePlane1
+    100040: nurbsCircle2
+    100042: nurbsCircle3
+    100044: nurbsCircle4
+    100046: nurbsCircle5
+    100048: nurbsCircle6
+    100050: nurbsCircle7
+    100052: nurbsCircle8
+    100054: nurbsCircle9
+    100056: ZoomZoo
+    400000: //RootNode
+    400002: curve2
+    400004: curve3
+    400006: curve4
+    400008: curve5
+    400010: curve6
+    400012: curve7
+    400014: curve8
+    400016: curve9
+    400018: Curves
+    400020: extrudedSurface2
+    400022: extrudedSurface3
+    400024: extrudedSurface4
+    400026: extrudedSurface5
+    400028: extrudedSurface6
+    400030: extrudedSurface7
+    400032: extrudedSurface8
+    400034: extrudedSurface9
+    400036: Geo
+    400038: imagePlane1
+    400040: nurbsCircle2
+    400042: nurbsCircle3
+    400044: nurbsCircle4
+    400046: nurbsCircle5
+    400048: nurbsCircle6
+    400050: nurbsCircle7
+    400052: nurbsCircle8
+    400054: nurbsCircle9
+    400056: ZoomZoo
+    2100000: lambert1
+    2300000: extrudedSurface2
+    2300002: extrudedSurface3
+    2300004: extrudedSurface4
+    2300006: extrudedSurface5
+    2300008: extrudedSurface6
+    2300010: extrudedSurface7
+    2300012: extrudedSurface8
+    2300014: extrudedSurface9
+    2300016: ZoomZoo
+    3300000: extrudedSurface2
+    3300002: extrudedSurface3
+    3300004: extrudedSurface4
+    3300006: extrudedSurface5
+    3300008: extrudedSurface6
+    3300010: extrudedSurface7
+    3300012: extrudedSurface8
+    3300014: extrudedSurface9
+    3300016: ZoomZoo
+    4300000: extrudedSurface2
+    4300002: extrudedSurface3
+    4300004: extrudedSurface4
+    4300006: extrudedSurface5
+    4300008: extrudedSurface6
+    4300010: extrudedSurface7
+    4300012: extrudedSurface8
+    4300014: extrudedSurface9
+    4300016: ZoomZoo
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
